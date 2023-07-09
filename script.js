@@ -85,14 +85,7 @@ function utilizarDatosPokemon(datos) {
   
   container.appendChild(container_card)
 
-
-
 }
-
-
-
-
-
 
 
 
@@ -134,17 +127,12 @@ submenu.forEach(element=>{
 })
 
 
-
-
-
-
 function inicio(){
   container.textContent=""
   obtenerDatosPokemon()
 }
 
 inicio()
-
 
 function callmodal(idem){
   
@@ -165,7 +153,7 @@ function callmodal(idem){
         tipos = tipos.join('');
         div_container_modal.innerHTML=`
         <div class='container_img'>
-          <img class='cerrar_modal' src="/Img/Icons/x-circle.svg" onclick="close_modal()">
+          <img class='cerrar_modal' src="Img/Icons/x-circle.svg" onclick="close_modal()">
         
           <h2 class ='id_modal'>${new_id}</h2>
           <div class='cont_img_modal'>
